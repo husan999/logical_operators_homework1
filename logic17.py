@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a==int(a) and a>=10000 and a<=99999 and (a//10000 > a//1000%10 > a//100%10 > a//10%10 > a%10
+                                                     or a//10000 < a//1000%10 < a//100%10 < a//10%10 < a%10 )
+print(main(54321))
