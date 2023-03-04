@@ -6,5 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a==int(a) and a>=100 and a<=999 and (a//10+a%10)%2!=0
+    return a==int(a) and a>=100 and a<=999 and (a//100+a%100)%2!=0
 print(main(123))
