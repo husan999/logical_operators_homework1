@@ -6,4 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return  a!=int(a)  and abs(a)>=10 or abs(a)<=99
+print(main(10.4))
